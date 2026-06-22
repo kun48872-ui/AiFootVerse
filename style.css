@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:20px;
+    background:#161b22;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 30px;
+    border:none;
+    border-radius:10px;
+    background:#00ff88;
+    color:black;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.matches{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:30px;
+}
+
+.card{
+    background:#161b22;
+    padding:20px;
+    border-radius:15px;
+    width:250px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.video{
+    padding:20px;
+}
